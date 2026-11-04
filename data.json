@@ -1,0 +1,557 @@
+{
+ "projects": [
+  {
+   "id": "productivity",
+   "name": "productivity",
+   "desc": "캘린더, 할 일, 메모에 시험공부 관리까지 묶은 개인용 웹앱.",
+   "stack": [
+    "React",
+    "TypeScript",
+    "Supabase",
+    "Vercel",
+    "Obsidian"
+   ],
+   "team": false,
+   "auto": false,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-08-26",
+   "last": "2026-10-09",
+   "commits": 67,
+   "activeDays": 11,
+   "days": {
+    "2026-08-26": 11,
+    "2026-08-27": 6,
+    "2026-08-31": 6,
+    "2026-09-01": 19,
+    "2026-09-02": 13,
+    "2026-09-03": 2,
+    "2026-09-05": 1,
+    "2026-09-06": 2,
+    "2026-09-21": 2,
+    "2026-09-28": 3,
+    "2026-10-09": 2
+   },
+   "types": [
+    {
+     "name": "TypeScript",
+     "pct": 81
+    },
+    {
+     "name": "SQL",
+     "pct": 14
+    },
+    {
+     "name": "CSS",
+     "pct": 2
+    },
+    {
+     "name": "문서",
+     "pct": 2
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-08-26",
+     "title": "캘린더, 할 일, 메모 통합 웹앱 시작"
+    },
+    {
+     "date": "2026-08-31",
+     "title": "시험공부, 학업 관리, 오늘의 브리핑"
+    },
+    {
+     "date": "2026-09-01",
+     "title": "DB 이력 복구, 사용자별 데이터 분리 검사"
+    },
+    {
+     "date": "2026-09-02",
+     "title": "Obsidian 플러그인, 워커 로그인 방식 개선"
+    },
+    {
+     "date": "2026-09-06",
+     "title": "요일, 알림, 연속 기록이 있는 습관 관리"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "오늘 화면을 4열 카드 보드로 개편"
+    }
+   ],
+   "recent": []
+  },
+  {
+   "id": "hwp-mcp",
+   "name": "hwp-mcp",
+   "desc": "AI가 한글 문서를 읽고 쓰게 해 주는 MCP 서버. 오픈소스를 포크해서 필요한 부분을 고쳤다.",
+   "stack": [
+    "TypeScript",
+    "MCP",
+    "HWPX"
+   ],
+   "team": false,
+   "auto": false,
+   "url": "https://github.com/sxcrxta/hwp-mcp",
+   "isPublic": true,
+   "first": "2026-09-04",
+   "last": "2026-09-04",
+   "commits": 3,
+   "activeDays": 1,
+   "days": {
+    "2026-09-04": 3
+   },
+   "types": [
+    {
+     "name": "TypeScript",
+     "pct": 95
+    },
+    {
+     "name": "문서",
+     "pct": 5
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-09-04",
+     "title": "포크 후 수식 정렬, 들여쓰기, 표 셀 오류 수정"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-09-04",
+     "title": "chore: report server version 0.3.1 in MCP handshake",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/fb485cea5c5bf3c9966edd8130c30d61f90cca44"
+    },
+    {
+     "date": "2026-09-04",
+     "title": "docs: fork notice + clone/build install guide (Windows/macOS/Linux); bump 0.3.1",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/51a0928d875b182f2f8a60ef9d9902cd0fcc13ae"
+    },
+    {
+     "date": "2026-09-04",
+     "title": "fix: equation centering, 2-space indent, table cells, paraPr order",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/5242ad47bcb837e52ffe09747f43cdafc6f11013"
+    }
+   ]
+  },
+  {
+   "id": "personal-hub",
+   "name": "Personal Hub",
+   "desc": "일정과 메모를 웹에서 관리하고, 메모를 Obsidian 노트로 이어 주는 앱.",
+   "stack": [
+    "React",
+    "TypeScript",
+    "Supabase",
+    "Vercel",
+    "Obsidian"
+   ],
+   "team": false,
+   "auto": false,
+   "url": "https://github.com/sxcrxta/personal-hub",
+   "isPublic": true,
+   "first": "2026-09-07",
+   "last": "2026-11-01",
+   "commits": 35,
+   "activeDays": 5,
+   "days": {
+    "2026-09-07": 1,
+    "2026-09-28": 10,
+    "2026-10-08": 7,
+    "2026-10-26": 5,
+    "2026-11-01": 12
+   },
+   "types": [
+    {
+     "name": "TypeScript",
+     "pct": 79
+    },
+    {
+     "name": "문서",
+     "pct": 13
+    },
+    {
+     "name": "SQL",
+     "pct": 3
+    },
+    {
+     "name": "CSS",
+     "pct": 3
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-09-07",
+     "title": "코드보다 범위와 데이터 흐름 문서부터 정리"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "앱 뼈대, 주요 화면 5개, Vercel 배포"
+    },
+    {
+     "date": "2026-10-08",
+     "title": "Supabase 연결, 계정별 데이터 저장"
+    },
+    {
+     "date": "2026-10-26",
+     "title": "Obsidian 플러그인, 맥북 AI 메모 정리 워커"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "워커가 꺼져도 저장, Mac 설치 앱 추가"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-11-01",
+     "title": "설치 앱의 볼트 선택을 Finder 창으로 변경 — 목록 방식은 Obsidian이 기억하는 볼트만 고를 수 있고 개인 볼트 경로까지 화면에 보여서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/aff86fafb544dc665954fc32ab50acd35a313a9f"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "메모 화면이 처리 상태를 스스로 다시 읽도록 변경 — 플러그인이 DB에 적은 완료가 새로고침 전에는 보이지 않아서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/5d3afdf6b0cb0aaaa8ba0886a1b1867f4bc85956"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "설치 디스크에 버전을 붙이고 옛 버전 덮어쓰기를 막은 0.5.1 설치 파일 생성 — 열어 둔 옛 디스크의 앱이 0.5.0을 0.4.0으로 되돌려서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/532621bdf4fb6d7e9df5ed8820278bede978dbce"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "실패 이유에서 컴퓨터 경로를 지우고 DB에 저장 — 파일 오류에 섞인 절대경로가 서버에 올라가면 안 돼서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/8b10119ac046d1b9ea86b16573e2c5b26fbddae7"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "Claude Code 답을 읽지 못해도 정제가 멈추지 않게 처리 — 처리기 안의 예외로 작업이 끝나지 않아 재시작 전까지 모든 AI 정제가 막혀서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/1897171de1baa66b10aecf242a8545e97acf93c8"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "설계 문서와 체크리스트를 플러그인 하나 구조로 갱신, 35/44 표시 — 코드와 문서가 어긋나면 다음 작업의 기준이 흔들려서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/3eff5265f1b192f15b86c3613b408fb549f1a77a"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "웹 문구를 Obsidian 연결로 바꾸고 설치 파일 내려받기 추가 — 사용자가 웹에서 바로 설치 파일을 받아 터미널 없이 연결하게 하려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/9f8ff8dabdb0aca3e5f14e4de911cb3daccf3007"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "AI 정제를 플러그인으로 옮기고 Claude Code를 읽기 전용으로 실행 — 설치할 프로그램을 하나로 줄이고, 파일은 플러그인이 만들어 폴더·태그·중복 방지를 지키려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/b1f860459e0c6979518c77b65d81a8d18267b3a2"
+    }
+   ]
+  },
+  {
+   "id": "experiment-agent",
+   "name": "실험보고서 학습 보조 Agent",
+   "desc": "한글로 쓴 실험보고서를 대신 써 주지 않고, 스스로 고치도록 피드백해 주는 Mac 앱.",
+   "stack": [
+    "Electron",
+    "TypeScript",
+    "SQLite"
+   ],
+   "team": false,
+   "auto": false,
+   "url": "https://github.com/sxcrxta/experiment-report-assistant",
+   "isPublic": false,
+   "first": "2026-09-10",
+   "last": "2026-10-27",
+   "commits": 48,
+   "activeDays": 7,
+   "days": {
+    "2026-09-10": 7,
+    "2026-09-11": 10,
+    "2026-09-12": 17,
+    "2026-09-15": 3,
+    "2026-09-17": 2,
+    "2026-09-18": 3,
+    "2026-10-27": 6
+   },
+   "types": [
+    {
+     "name": "TypeScript",
+     "pct": 89
+    },
+    {
+     "name": "문서",
+     "pct": 8
+    },
+    {
+     "name": "CSS",
+     "pct": 2
+    },
+    {
+     "name": "SQL",
+     "pct": 1
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-09-10",
+     "title": "프로젝트 뼈대와 HWPX 읽기"
+    },
+    {
+     "date": "2026-09-11",
+     "title": "저장 감지, 버전 비교, 평가 지침"
+    },
+    {
+     "date": "2026-09-12",
+     "title": "피드백 화면, 심층 검토, 앱 패키징까지 1차 완성"
+    },
+    {
+     "date": "2026-09-15",
+     "title": "한글 문서처럼 보이는 미리보기와 수식 조판"
+    },
+    {
+     "date": "2026-09-18",
+     "title": "보고서 속 그림까지 함께 검토"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "화면 단순화, 저장 후 바뀐 부분 한 번에 검토"
+    }
+   ],
+   "recent": []
+  },
+  {
+   "id": "oj-tracker",
+   "name": "OJ 제출 기록기",
+   "desc": "온라인 저지 제출을 자동으로 저장하고, 어디서 자주 틀리는지 분석해 주는 도구.",
+   "stack": [
+    "Chrome 확장",
+    "Supabase",
+    "Vercel",
+    "Claude"
+   ],
+   "team": false,
+   "auto": false,
+   "url": "https://github.com/sxcrxta/oj-tracker",
+   "isPublic": true,
+   "first": "2026-09-21",
+   "last": "2026-10-14",
+   "commits": 19,
+   "activeDays": 8,
+   "days": {
+    "2026-09-21": 4,
+    "2026-09-22": 6,
+    "2026-09-24": 3,
+    "2026-09-28": 2,
+    "2026-10-09": 1,
+    "2026-10-10": 1,
+    "2026-10-11": 1,
+    "2026-10-14": 1
+   },
+   "types": [
+    {
+     "name": "JavaScript",
+     "pct": 79
+    },
+    {
+     "name": "HTML",
+     "pct": 7
+    },
+    {
+     "name": "CSS",
+     "pct": 6
+    },
+    {
+     "name": "SQL",
+     "pct": 4
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-09-21",
+     "title": "크롬 확장, 대시보드, 약점 분석"
+    },
+    {
+     "date": "2026-09-22",
+     "title": "브라우저에서 채점하는 자체 연습장"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "단계별 힌트, 코드 정리창, 문제 지도"
+    },
+    {
+     "date": "2026-10-14",
+     "title": "빈칸 채우기 문제"
+    }
+   ],
+   "recent": [
+    {
+     "date": "2026-10-14",
+     "title": "연습장: 빈칸 채우기 문제 (함수별로 코드 채워서 채점)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/9604eb1bbacb68512c9c491322f230a1b4704307"
+    },
+    {
+     "date": "2026-10-11",
+     "title": "코드 정리·문제 지도: 아직 안 푼 문제도 보여주기 (저장한 문제 설명 포함)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/d406b31ee70243a336f53f8cf2912ba89cc8ed00"
+    },
+    {
+     "date": "2026-10-10",
+     "title": "Vercel 자동 배포 연결 확인",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/c77320e66f471fdf79a8d5f4e85036c64b67ed49"
+    },
+    {
+     "date": "2026-10-09",
+     "title": "코드 정리: 풀이가 하나면 이름 없이 코드만 보여주기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/bed36cfe8a3a9c0a1057105c23ccd70947824cb7"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "코드 정리: 문제 목록을 분류별로 묶어 보기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/be7de94521aa08c42e6bcbf79d595ba2be9082f8"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "문제 지도 새 디자인과 Claude로 정리",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/681529963bba44064b2e2ec8fc10aa9012d6e7b8"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "코드 정리창과 문제 연결 지도",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/f59b8ceb7920650c1737f77fbee5f0c586bac7d6"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "연습장 편집기를 Monaco로 (dshs.app과 동일한 편집 환경)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/b3669558d848f301b4b47c4f0222e1ee6a424536"
+    }
+   ]
+  },
+  {
+   "id": "dshs-study",
+   "name": "dshs.study",
+   "desc": "시간표와 수행평가 공지를 한곳에서 보는 학교 웹서비스. 팀으로 만들고 있고, 여기에는 내가 맡은 일정과 알림 작업만 담았다.",
+   "stack": [
+    "JavaScript",
+    "Supabase",
+    "PWA"
+   ],
+   "team": true,
+   "auto": false,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-10-30",
+   "last": "2026-11-05",
+   "commits": 171,
+   "activeDays": 7,
+   "days": {
+    "2026-10-30": 1,
+    "2026-10-31": 2,
+    "2026-11-01": 17,
+    "2026-11-02": 67,
+    "2026-11-03": 32,
+    "2026-11-04": 46,
+    "2026-11-05": 6
+   },
+   "types": [
+    {
+     "name": "문서",
+     "pct": 45
+    },
+    {
+     "name": "JavaScript",
+     "pct": 31
+    },
+    {
+     "name": "TypeScript",
+     "pct": 11
+    },
+    {
+     "name": "SQL",
+     "pct": 8
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-10-30",
+     "title": "달력 기반 일정 관리와 공유"
+    },
+    {
+     "date": "2026-10-31",
+     "title": "알림 켜기/끄기, 필수 학교 일정 알림"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "알림 배포, 실행 간격 조정"
+    }
+   ],
+   "recent": []
+  },
+  {
+   "id": "auto-goblin-2",
+   "name": "goblin",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "commits": 1,
+   "activeDays": 1,
+   "days": {
+    "2026-11-02": 1
+   },
+   "types": [
+    {
+     "name": "Python",
+     "pct": 54
+    },
+    {
+     "name": "Swift",
+     "pct": 44
+    },
+    {
+     "name": "Shell",
+     "pct": 2
+    },
+    {
+     "name": "문서",
+     "pct": 1
+    }
+   ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-color-camera-1",
+   "name": "color-camera",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": "https://github.com/sxcrxta/color-camera",
+   "isPublic": true,
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "commits": 2,
+   "activeDays": 1,
+   "days": {
+    "2026-11-04": 2
+   },
+   "types": [
+    {
+     "name": "HTML",
+     "pct": 100
+    }
+   ],
+   "milestones": [],
+   "recent": [
+    {
+     "date": "2026-11-04",
+     "title": "실제 영상 반영: 흰 종이 밝기 보정, 용액 자동 추적, 상대 변화율 기반 종료 판정, 영상 파일 분석",
+     "url": "https://github.com/sxcrxta/color-camera/commit/87cb68a5a7ce86da8dc7c233e6cce349884a0df0"
+    },
+    {
+     "date": "2026-11-04",
+     "title": "색 변화 측정 웹앱: 카메라 영상 옆 ΔE 그래프, 변화 종료 시점 자동 판정",
+     "url": "https://github.com/sxcrxta/color-camera/commit/10e9d799db48aa3604939d7a826524e039af0855"
+    }
+   ]
+  }
+ ]
+}

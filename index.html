@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dev Journey</title>
+<meta name="description" content="프로젝트를 어떻게 만들어 왔는지 날짜별로 모아 둔 개발 기록.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M9 22V14M16 22V9M23 22v-5' stroke='white' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #6f6d68;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10); --accent: #1c5cab;
+  --s0: #eeede8; --s1: #86b6ef; --s2: #5598e7; --s3: #2a78d6; --s4: #1c5cab; --s5: #0d366b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #a09e96;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --accent: #86b6ef;
+    --s0: #262625; --s1: #184f95; --s2: #256abf; --s3: #3987e5; --s4: #6da7ec; --s5: #b7d3f6;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #a09e96;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10); --accent: #86b6ef;
+  --s0: #262625; --s1: #184f95; --s2: #256abf; --s3: #3987e5; --s4: #6da7ec; --s5: #b7d3f6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--page); color: var(--ink);
+  font: 16px/1.6 system-ui, -apple-system, "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+  word-break: keep-all; overflow-wrap: anywhere;
+}
+main { max-width: 1040px; margin: 0 auto; padding: 56px 16px 72px; }
+header h1 { margin: 0 0 8px; font-size: clamp(30px, 6vw, 42px); line-height: 1.2; letter-spacing: -.02em; }
+header p { margin: 0; color: var(--ink-2); max-width: 620px; }
+a { color: var(--accent); }
+h2 { font-size: 21px; margin: 0 0 4px; letter-spacing: -.01em; }
+.sub { margin: 0 0 18px; color: var(--ink-2); font-size: 14px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 32px 0 44px; }
+.stat { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px 16px; }
+.stat b { display: block; font-size: 30px; line-height: 1.2; font-weight: 650; }
+.stat span { color: var(--ink-2); font-size: 14px; }
+
+.panel { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 20px; }
+.lane-scroll { overflow-x: auto; padding-bottom: 4px; }
+.lanes { display: grid; gap: 3px; align-items: center; width: max-content; min-width: 100%; }
+.lane-name { position: sticky; left: 0; z-index: 1; background: var(--surface); padding-right: 12px; font-size: 13.5px; font-weight: 550; white-space: nowrap; max-width: 150px; overflow: hidden; text-overflow: ellipsis; }
+.tick { font-size: 12px; color: var(--muted); white-space: nowrap; height: 20px; font-variant-numeric: tabular-nums; }
+.cell { display: block; width: 100%; min-width: 26px; height: 28px; padding: 0; border: 0; border-radius: 4px; cursor: default; }
+.cell:hover, .cell:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+.scale { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 14px; font-size: 12.5px; color: var(--ink-2); }
+.scale i { width: 16px; height: 16px; border-radius: 3px; display: inline-block; }
+.toggle { margin-top: 12px; font: inherit; font-size: 13.5px; color: var(--accent); background: none; border: 0; padding: 4px 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.tbl-wrap { overflow-x: auto; margin-top: 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+
+#tip { position: fixed; z-index: 9; display: none; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--ring); border-radius: 8px; padding: 7px 11px; font-size: 13px; box-shadow: 0 4px 14px rgba(0,0,0,.14); }
+#tip b { display: block; font-size: 15px; }
+
+.section { margin-top: 48px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 20px; min-width: 0; }
+.card h3 { margin: 0; font-size: 18px; }
+.card h3 a { color: inherit; text-underline-offset: 3px; }
+.meta { color: var(--muted); font-size: 13px; margin: 2px 0 10px; font-variant-numeric: tabular-nums; }
+.desc { margin: 0 0 12px; color: var(--ink-2); font-size: 14.5px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--page); border: 1px solid var(--ring); color: var(--ink-2); }
+.steps { list-style: none; margin: 0; padding: 0; }
+.steps li { display: grid; grid-template-columns: 56px 1fr; gap: 12px; padding-bottom: 12px; font-size: 14px; position: relative; }
+.steps time { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; padding-top: 1px; }
+.steps span { position: relative; padding-left: 16px; }
+.steps span::before { content: ""; position: absolute; left: 0; top: 7px; width: 8px; height: 8px; border-radius: 50%; background: var(--s3); }
+.steps li:not(:last-child) span::after { content: ""; position: absolute; left: 3px; top: 18px; bottom: -14px; width: 2px; background: var(--grid); }
+.bars { margin-top: 6px; }
+.bar { display: grid; grid-template-columns: 82px 1fr 36px; gap: 8px; align-items: center; font-size: 12.5px; color: var(--ink-2); margin-top: 5px; }
+.bar i { display: block; height: 6px; border-radius: 0 4px 4px 0; background: var(--s3); min-width: 3px; }
+.bar em { font-style: normal; text-align: right; font-variant-numeric: tabular-nums; }
+details { margin-top: 12px; font-size: 13.5px; }
+summary { cursor: pointer; color: var(--accent); }
+details ul { padding-left: 18px; margin: 8px 0 0; color: var(--ink-2); }
+.note { margin: 12px 0 0; color: var(--muted); font-size: 12.5px; }
+footer { margin-top: 44px; color: var(--muted); font-size: 13px; }
+.empty { padding: 48px 0; color: var(--ink-2); }
+@media (max-width: 560px) { main { padding-top: 36px; } .panel, .card { padding: 16px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Dev Journey</h1>
+    <p>만들어 온 프로젝트를 날짜별로 모아 둔 개발 기록이다. 커밋이 쌓이면 자동으로 갱신된다.</p>
+  </header>
+  <div id="app"><p class="empty">기록을 불러오는 중이다.</p></div>
+  <footer>비공개 저장소는 커밋 제목 없이 날짜별 개수만 보여 준다.</footer>
+</main>
+<div id="tip" role="status"></div>
+<script>
+const el = (tag, props = {}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === 'class') n.className = v; else if (k === 'text') n.textContent = v; else n.setAttribute(k, v);
+  }
+  n.append(...kids); return n;
+};
+const parse = s => { const [y, m, d] = s.split('-').map(Number); return new Date(Date.UTC(y, m - 1, d)); };
+const iso = d => d.toISOString().slice(0, 10);
+const md = s => { const d = parse(s); return `${d.getUTCMonth() + 1}/${d.getUTCDate()}`; };
+const monday = s => { const d = parse(s); d.setUTCDate(d.getUTCDate() - (d.getUTCDay() + 6) % 7); return d; };
+const BINS = [[1, 2], [3, 5], [6, 10], [11, 20], [21, Infinity]];
+const level = n => n === 0 ? 0 : BINS.findIndex(([a, b]) => n >= a && n <= b) + 1;
+
+function weeks(projects) {
+  const all = projects.flatMap(p => Object.keys(p.days)).sort();
+  const out = [];
+  for (let d = monday(all[0]), end = monday(all[all.length - 1]); d <= end; d = new Date(d.getTime() + 7 * 864e5)) out.push(iso(d));
+  return out;
+}
+const weekCount = (p, w) => {
+  const from = parse(w).getTime(), to = from + 7 * 864e5;
+  return Object.entries(p.days).reduce((s, [d, n]) => { const t = parse(d).getTime(); return t >= from && t < to ? s + n : s; }, 0);
+};
+
+function tip(cell, p, w, n) {
+  const box = document.getElementById('tip');
+  const r = cell.getBoundingClientRect();
+  box.replaceChildren(el('b', { text: `커밋 ${n}개` }), `${p.name} · ${md(w)} 주`);
+  box.style.display = 'block';
+  box.style.left = Math.max(8, Math.min(r.left, innerWidth - box.offsetWidth - 8)) + 'px';
+  box.style.top = (r.top > 70 ? r.top - box.offsetHeight - 6 : r.bottom + 6) + 'px';
+}
+const hideTip = () => { document.getElementById('tip').style.display = 'none'; };
+
+function swimlanes(projects, ws) {
+  const grid = el('div', { class: 'lanes' });
+  grid.style.gridTemplateColumns = `auto repeat(${ws.length}, minmax(26px, 1fr))`;
+  grid.append(el('div'));
+  let lastMonth = -1;
+  ws.forEach(w => {
+    const m = parse(w).getUTCMonth();
+    grid.append(el('div', { class: 'tick', text: m !== lastMonth ? `${m + 1}월` : '' }));
+    lastMonth = m;
+  });
+  projects.forEach(p => {
+    grid.append(el('div', { class: 'lane-name', text: p.name, title: p.name }));
+    ws.forEach(w => {
+      const n = weekCount(p, w);
+      const c = el('button', { class: 'cell', type: 'button', 'aria-label': `${p.name}, ${md(w)} 주, 커밋 ${n}개` });
+      c.style.background = `var(--s${level(n)})`;
+      c.addEventListener('pointerenter', () => tip(c, p, w, n));
+      c.addEventListener('focus', () => tip(c, p, w, n));
+      c.addEventListener('pointerleave', hideTip);
+      c.addEventListener('blur', hideTip);
+      grid.append(c);
+    });
+  });
+  const scale = el('div', { class: 'scale' }, '주간 커밋');
+  ['0', '1–2', '3–5', '6–10', '11–20', '21+'].forEach((t, i) => {
+    const sw = el('i'); sw.style.background = `var(--s${i})`;
+    scale.append(sw, t);
+  });
+  const rows = projects.map(p => el('tr', {}, el('td', { text: p.name }), el('td', { text: `${md(p.first)} – ${md(p.last)}` }),
+    el('td', { class: 'n', text: p.commits }), el('td', { class: 'n', text: p.activeDays })));
+  const table = el('div', { class: 'tbl-wrap' }, el('table', {},
+    el('thead', {}, el('tr', {}, el('th', { text: '프로젝트' }), el('th', { text: '기간' }), el('th', { class: 'n', text: '커밋' }), el('th', { class: 'n', text: '작업한 날' }))),
+    el('tbody', {}, ...rows)));
+  table.hidden = true;
+  const btn = el('button', { class: 'toggle', type: 'button', text: '표로 보기' });
+  btn.addEventListener('click', () => { table.hidden = !table.hidden; btn.textContent = table.hidden ? '표로 보기' : '표 닫기'; });
+  return el('div', { class: 'panel' }, el('div', { class: 'lane-scroll' }, grid), scale, btn, table);
+}
+
+function card(p) {
+  const title = el('h3');
+  title.append(p.url ? el('a', { href: p.url, rel: 'noopener', text: p.name }) : p.name);
+  const c = el('article', { class: 'card' }, title,
+    el('p', { class: 'meta', text: `${p.first.replaceAll('-', '.')} – ${p.last.replaceAll('-', '.')} · 커밋 ${p.commits}개 · ${p.activeDays}일 작업${p.team ? ' · 팀 프로젝트' : ''}` }),
+    el('p', { class: 'desc', text: p.desc }));
+  if (p.stack.length) c.append(el('div', { class: 'tags' }, ...p.stack.map(s => el('span', { class: 'tag', text: s }))));
+  if (p.milestones.length) {
+    c.append(el('ol', { class: 'steps' }, ...p.milestones.map(m => el('li', {},
+      el('time', { datetime: m.date, text: md(m.date) }), el('span', { text: m.title })))));
+  }
+  if (p.types.length) {
+    const max = Math.max(...p.types.map(t => t.pct));
+    c.append(el('div', { class: 'bars', 'aria-label': '많이 고친 파일 종류' }, ...p.types.map(t => {
+      const i = el('i'); i.style.width = `${t.pct * 100 / max}%`;
+      return el('div', { class: 'bar' }, el('span', { text: t.name }), el('div', {}, i), el('em', { text: `${t.pct}%` }));
+    })));
+  }
+  if (p.recent.length) {
+    c.append(el('details', {}, el('summary', { text: '최근 커밋' }), el('ul', {}, ...p.recent.map(r =>
+      el('li', {}, `${md(r.date)} `, el('a', { href: r.url, rel: 'noopener', text: r.title }))))));
+  } else if (!p.milestones.length) {
+    c.append(el('p', { class: 'note', text: '비공개로 진행 중이라 활동량만 표시한다.' }));
+  }
+  return c;
+}
+
+fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(({ projects }) => {
+  const ws = weeks(projects);
+  const allDays = new Set(projects.flatMap(p => Object.keys(p.days)));
+  const first = projects.map(p => p.first).sort()[0];
+  const stats = [[projects.length, '프로젝트'], [projects.reduce((s, p) => s + p.commits, 0), '내 커밋'], [allDays.size, '개발한 날'], [first.replaceAll('-', '.'), '첫 기록']];
+  document.getElementById('app').replaceChildren(
+    el('section', { class: 'stats', 'aria-label': '요약' }, ...stats.map(([v, l]) => el('div', { class: 'stat' }, el('b', { text: v }), el('span', { text: l })))),
+    el('section', {}, el('h2', { text: '주별 활동' }), el('p', { class: 'sub', text: '한 칸이 한 주다. 진할수록 그 주에 커밋을 많이 했다.' }), swimlanes(projects, ws)),
+    el('section', { class: 'section' }, el('h2', { text: '프로젝트별 과정' }), el('p', { class: 'sub', text: '시작한 순서대로 정리했다.' }),
+      el('div', { class: 'cards' }, ...projects.map(card))));
+  const lanes = document.querySelector('.lane-scroll');
+  lanes.scrollLeft = lanes.scrollWidth;
+}).catch(() => {
+  document.getElementById('app').replaceChildren(el('p', { class: 'empty', text: '기록을 불러오지 못했다.' }));
+});
+</script>
+</body>
+</html>
