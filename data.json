@@ -90,7 +90,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/hwp-mcp",
-   "isPublic": true,
+   "isPublic": false,
    "first": "2026-09-04",
    "last": "2026-09-04",
    "commits": 3,
@@ -114,23 +114,7 @@
      "title": "포크 후 수식 정렬, 들여쓰기, 표 셀 오류 수정"
     }
    ],
-   "recent": [
-    {
-     "date": "2026-09-04",
-     "title": "chore: report server version 0.3.1 in MCP handshake",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/fb485cea5c5bf3c9966edd8130c30d61f90cca44"
-    },
-    {
-     "date": "2026-09-04",
-     "title": "docs: fork notice + clone/build install guide (Windows/macOS/Linux); bump 0.3.1",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/51a0928d875b182f2f8a60ef9d9902cd0fcc13ae"
-    },
-    {
-     "date": "2026-09-04",
-     "title": "fix: equation centering, 2-space indent, table cells, paraPr order",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/5242ad47bcb837e52ffe09747f43cdafc6f11013"
-    }
-   ]
+   "recent": []
   },
   {
    "id": "personal-hub",
@@ -638,12 +622,17 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 1,
+   "commits": 2,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 1
+    "2026-11-05": 2
    },
-   "types": [],
+   "types": [
+    {
+     "name": "JavaScript",
+     "pct": 100
+    }
+   ],
    "milestones": [],
    "recent": []
   },
