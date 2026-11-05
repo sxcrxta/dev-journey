@@ -435,7 +435,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-05",
-   "commits": 179,
+   "commits": 180,
    "activeDays": 7,
    "days": {
     "2026-10-30": 1,
@@ -444,12 +444,12 @@
     "2026-11-02": 67,
     "2026-11-03": 32,
     "2026-11-04": 46,
-    "2026-11-05": 14
+    "2026-11-05": 15
    },
    "types": [
     {
      "name": "문서",
-     "pct": 45
+     "pct": 46
     },
     {
      "name": "JavaScript",
@@ -564,27 +564,56 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 6,
+   "commits": 10,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 6
+    "2026-11-05": 10
    },
    "types": [
     {
-     "name": "Python",
-     "pct": 45
+     "name": "HTML",
+     "pct": 40
     },
     {
-     "name": "HTML",
-     "pct": 28
+     "name": "Python",
+     "pct": 34
     },
     {
      "name": "문서",
-     "pct": 19
+     "pct": 15
     },
     {
      "name": "JavaScript",
-     "pct": 7
+     "pct": 9
+    }
+   ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-deep-sub-5",
+   "name": "deep-sub",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "commits": 3,
+   "activeDays": 1,
+   "days": {
+    "2026-11-05": 3
+   },
+   "types": [
+    {
+     "name": "JavaScript",
+     "pct": 93
+    },
+    {
+     "name": "문서",
+     "pct": 6
     }
    ],
    "milestones": [],
@@ -601,19 +630,19 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 5,
+   "commits": 6,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 5
+    "2026-11-05": 6
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 73
+     "pct": 71
     },
     {
      "name": "문서",
-     "pct": 22
+     "pct": 24
     },
     {
      "name": "CSS",
