@@ -435,7 +435,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-05",
-   "commits": 181,
+   "commits": 182,
    "activeDays": 7,
    "days": {
     "2026-10-30": 1,
@@ -444,7 +444,7 @@
     "2026-11-02": 67,
     "2026-11-03": 32,
     "2026-11-04": 46,
-    "2026-11-05": 16
+    "2026-11-05": 17
    },
    "types": [
     {
@@ -564,10 +564,10 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 16,
+   "commits": 17,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 16
+    "2026-11-05": 17
    },
    "types": [
     {
@@ -601,10 +601,10 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 81,
+   "commits": 83,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 81
+    "2026-11-05": 83
    },
    "types": [
     {
@@ -624,6 +624,26 @@
      "pct": 1
     }
    ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-jelly-whale-6",
+   "name": "jelly-whale",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "commits": 1,
+   "activeDays": 1,
+   "days": {
+    "2026-11-05": 1
+   },
+   "types": [],
    "milestones": [],
    "recent": []
   },
