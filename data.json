@@ -601,15 +601,15 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-05",
-   "commits": 16,
+   "commits": 18,
    "activeDays": 1,
    "days": {
-    "2026-11-05": 16
+    "2026-11-05": 18
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 86
+     "pct": 85
     },
     {
      "name": "문서",
@@ -617,7 +617,11 @@
     },
     {
      "name": "Python",
-     "pct": 2
+     "pct": 3
+    },
+    {
+     "name": "HTML",
+     "pct": 1
     }
    ],
    "milestones": [],
