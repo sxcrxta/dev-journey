@@ -435,7 +435,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-05",
-   "commits": 171,
+   "commits": 173,
    "activeDays": 7,
    "days": {
     "2026-10-30": 1,
@@ -444,7 +444,7 @@
     "2026-11-02": 67,
     "2026-11-03": 32,
     "2026-11-04": 46,
-    "2026-11-05": 6
+    "2026-11-05": 8
    },
    "types": [
     {
@@ -552,6 +552,76 @@
      "url": "https://github.com/sxcrxta/color-camera/commit/10e9d799db48aa3604939d7a826524e039af0855"
     }
    ]
+  },
+  {
+   "id": "auto-autobuild-3",
+   "name": "autobuild",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "commits": 1,
+   "activeDays": 1,
+   "days": {
+    "2026-11-05": 1
+   },
+   "types": [
+    {
+     "name": "Python",
+     "pct": 56
+    },
+    {
+     "name": "문서",
+     "pct": 19
+    },
+    {
+     "name": "HTML",
+     "pct": 13
+    },
+    {
+     "name": "JavaScript",
+     "pct": 11
+    }
+   ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-todo-lite-4",
+   "name": "todo-lite",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "commits": 1,
+   "activeDays": 1,
+   "days": {
+    "2026-11-05": 1
+   },
+   "types": [
+    {
+     "name": "JavaScript",
+     "pct": 69
+    },
+    {
+     "name": "문서",
+     "pct": 23
+    },
+    {
+     "name": "Shell",
+     "pct": 7
+    }
+   ],
+   "milestones": [],
+   "recent": []
   }
  ]
 }
