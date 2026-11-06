@@ -602,20 +602,20 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-06",
-   "commits": 98,
+   "commits": 106,
    "activeDays": 2,
    "days": {
     "2026-11-05": 83,
-    "2026-11-06": 15
+    "2026-11-06": 23
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 85
+     "pct": 84
     },
     {
      "name": "문서",
-     "pct": 12
+     "pct": 13
     },
     {
      "name": "Python",
@@ -639,11 +639,12 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-05",
-   "last": "2026-11-05",
-   "commits": 2,
-   "activeDays": 1,
+   "last": "2026-11-06",
+   "commits": 3,
+   "activeDays": 2,
    "days": {
-    "2026-11-05": 2
+    "2026-11-05": 2,
+    "2026-11-06": 1
    },
    "types": [
     {
