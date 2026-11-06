@@ -691,6 +691,43 @@
    ],
    "milestones": [],
    "recent": []
+  },
+  {
+   "id": "auto-jelly-deep-7",
+   "name": "jelly-deep",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "commits": 3,
+   "activeDays": 1,
+   "days": {
+    "2026-11-06": 3
+   },
+   "types": [
+    {
+     "name": "HTML",
+     "pct": 42
+    },
+    {
+     "name": "JavaScript",
+     "pct": 29
+    },
+    {
+     "name": "문서",
+     "pct": 17
+    },
+    {
+     "name": "Python",
+     "pct": 10
+    }
+   ],
+   "milestones": [],
+   "recent": []
   }
  ]
 }
