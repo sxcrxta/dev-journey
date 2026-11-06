@@ -602,11 +602,11 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-06",
-   "commits": 107,
+   "commits": 110,
    "activeDays": 2,
    "days": {
     "2026-11-05": 83,
-    "2026-11-06": 24
+    "2026-11-06": 27
    },
    "types": [
     {
@@ -703,27 +703,27 @@
    "isPublic": false,
    "first": "2026-11-06",
    "last": "2026-11-06",
-   "commits": 3,
+   "commits": 4,
    "activeDays": 1,
    "days": {
-    "2026-11-06": 3
+    "2026-11-06": 4
    },
    "types": [
     {
-     "name": "HTML",
-     "pct": 42
+     "name": "JavaScript",
+     "pct": 52
     },
     {
-     "name": "JavaScript",
-     "pct": 29
+     "name": "HTML",
+     "pct": 25
     },
     {
      "name": "문서",
-     "pct": 17
+     "pct": 16
     },
     {
      "name": "Python",
-     "pct": 10
+     "pct": 5
     }
    ],
    "milestones": [],
