@@ -435,7 +435,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-08",
-   "commits": 227,
+   "commits": 229,
    "activeDays": 9,
    "days": {
     "2026-10-30": 1,
@@ -446,7 +446,7 @@
     "2026-11-04": 46,
     "2026-11-05": 17,
     "2026-11-06": 41,
-    "2026-11-08": 4
+    "2026-11-08": 6
    },
    "types": [
     {
@@ -565,28 +565,29 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-05",
-   "last": "2026-11-05",
-   "commits": 17,
-   "activeDays": 1,
+   "last": "2026-11-08",
+   "commits": 18,
+   "activeDays": 2,
    "days": {
-    "2026-11-05": 17
+    "2026-11-05": 17,
+    "2026-11-08": 1
    },
    "types": [
     {
      "name": "HTML",
-     "pct": 52
+     "pct": 40
     },
     {
      "name": "Python",
-     "pct": 24
+     "pct": 35
+    },
+    {
+     "name": "문서",
+     "pct": 12
     },
     {
      "name": "JavaScript",
      "pct": 12
-    },
-    {
-     "name": "문서",
-     "pct": 10
     }
    ],
    "milestones": [],
@@ -703,11 +704,12 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-06",
-   "last": "2026-11-06",
-   "commits": 4,
-   "activeDays": 1,
+   "last": "2026-11-08",
+   "commits": 5,
+   "activeDays": 2,
    "days": {
-    "2026-11-06": 4
+    "2026-11-06": 4,
+    "2026-11-08": 1
    },
    "types": [
     {
