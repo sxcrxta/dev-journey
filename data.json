@@ -745,11 +745,12 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-09",
-   "last": "2026-11-09",
-   "commits": 14,
-   "activeDays": 1,
+   "last": "2026-11-10",
+   "commits": 18,
+   "activeDays": 2,
    "days": {
-    "2026-11-09": 14
+    "2026-11-09": 14,
+    "2026-11-10": 4
    },
    "types": [
     {
@@ -758,11 +759,11 @@
     },
     {
      "name": "CSS",
-     "pct": 13
+     "pct": 12
     },
     {
      "name": "문서",
-     "pct": 10
+     "pct": 11
     },
     {
      "name": "HTML",
