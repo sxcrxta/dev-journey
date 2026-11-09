@@ -746,15 +746,15 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-09",
-   "commits": 13,
+   "commits": 14,
    "activeDays": 1,
    "days": {
-    "2026-11-09": 13
+    "2026-11-09": 14
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 70
+     "pct": 73
     },
     {
      "name": "CSS",
@@ -762,7 +762,7 @@
     },
     {
      "name": "문서",
-     "pct": 12
+     "pct": 10
     },
     {
      "name": "HTML",
