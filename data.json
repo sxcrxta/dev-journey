@@ -746,10 +746,10 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-09",
-   "commits": 11,
+   "commits": 12,
    "activeDays": 1,
    "days": {
-    "2026-11-09": 11
+    "2026-11-09": 12
    },
    "types": [
     {
@@ -757,12 +757,12 @@
      "pct": 70
     },
     {
-     "name": "문서",
-     "pct": 15
+     "name": "CSS",
+     "pct": 13
     },
     {
-     "name": "CSS",
-     "pct": 9
+     "name": "문서",
+     "pct": 12
     },
     {
      "name": "HTML",
