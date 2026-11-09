@@ -567,17 +567,17 @@
    "isPublic": false,
    "first": "2026-11-05",
    "last": "2026-11-09",
-   "commits": 38,
+   "commits": 42,
    "activeDays": 3,
    "days": {
     "2026-11-05": 17,
     "2026-11-08": 7,
-    "2026-11-09": 14
+    "2026-11-09": 18
    },
    "types": [
     {
      "name": "Python",
-     "pct": 39
+     "pct": 40
     },
     {
      "name": "HTML",
@@ -706,12 +706,13 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-06",
-   "last": "2026-11-08",
-   "commits": 5,
-   "activeDays": 2,
+   "last": "2026-11-09",
+   "commits": 6,
+   "activeDays": 3,
    "days": {
     "2026-11-06": 4,
-    "2026-11-08": 1
+    "2026-11-08": 1,
+    "2026-11-09": 1
    },
    "types": [
     {
@@ -720,11 +721,11 @@
     },
     {
      "name": "HTML",
-     "pct": 25
+     "pct": 24
     },
     {
      "name": "문서",
-     "pct": 16
+     "pct": 18
     },
     {
      "name": "Python",
