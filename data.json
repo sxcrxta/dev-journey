@@ -435,7 +435,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-10",
-   "commits": 264,
+   "commits": 268,
    "activeDays": 11,
    "days": {
     "2026-10-30": 1,
@@ -448,7 +448,7 @@
     "2026-11-06": 41,
     "2026-11-08": 17,
     "2026-11-09": 10,
-    "2026-11-10": 14
+    "2026-11-10": 18
    },
    "types": [
     {
@@ -457,7 +457,7 @@
     },
     {
      "name": "JavaScript",
-     "pct": 30
+     "pct": 29
     },
     {
      "name": "TypeScript",
@@ -748,11 +748,11 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-10",
-   "commits": 41,
+   "commits": 45,
    "activeDays": 2,
    "days": {
     "2026-11-09": 14,
-    "2026-11-10": 27
+    "2026-11-10": 31
    },
    "types": [
     {
@@ -786,23 +786,23 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 20,
+   "commits": 26,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 20
+    "2026-11-10": 26
    },
    "types": [
     {
      "name": "HTML",
-     "pct": 41
+     "pct": 39
     },
     {
      "name": "JavaScript",
-     "pct": 36
+     "pct": 38
     },
     {
      "name": "문서",
-     "pct": 16
+     "pct": 17
     },
     {
      "name": "CSS",
