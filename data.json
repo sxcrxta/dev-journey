@@ -785,28 +785,29 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-10",
-   "last": "2026-11-10",
-   "commits": 16,
-   "activeDays": 1,
+   "last": "2026-11-11",
+   "commits": 21,
+   "activeDays": 2,
    "days": {
-    "2026-11-10": 16
+    "2026-11-10": 20,
+    "2026-11-11": 1
    },
    "types": [
     {
-     "name": "JavaScript",
-     "pct": 41
-    },
-    {
      "name": "HTML",
-     "pct": 30
+     "pct": 44
     },
     {
-     "name": "문서",
-     "pct": 13
+     "name": "JavaScript",
+     "pct": 32
     },
     {
      "name": "CSS",
-     "pct": 9
+     "pct": 11
+    },
+    {
+     "name": "문서",
+     "pct": 6
     }
    ],
    "milestones": [],
@@ -823,27 +824,27 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 42,
+   "commits": 44,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 42
+    "2026-11-10": 44
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 54
+     "pct": 50
     },
     {
      "name": "HTML",
-     "pct": 26
+     "pct": 31
     },
     {
      "name": "문서",
-     "pct": 14
+     "pct": 13
     },
     {
      "name": "CSS",
-     "pct": 6
+     "pct": 5
     }
    ],
    "milestones": [],
