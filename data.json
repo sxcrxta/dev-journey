@@ -748,20 +748,20 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-10",
-   "commits": 50,
+   "commits": 57,
    "activeDays": 2,
    "days": {
     "2026-11-09": 14,
-    "2026-11-10": 36
+    "2026-11-10": 43
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 78
+     "pct": 77
     },
     {
      "name": "문서",
-     "pct": 12
+     "pct": 14
     },
     {
      "name": "CSS",
@@ -770,6 +770,39 @@
     {
      "name": "HTML",
      "pct": 2
+    }
+   ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-daily-diary-10",
+   "name": "daily-diary",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "commits": 1,
+   "activeDays": 1,
+   "days": {
+    "2026-11-10": 1
+   },
+   "types": [
+    {
+     "name": "문서",
+     "pct": 64
+    },
+    {
+     "name": "Shell",
+     "pct": 18
+    },
+    {
+     "name": "JavaScript",
+     "pct": 18
     }
    ],
    "milestones": [],
@@ -786,19 +819,19 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 28,
+   "commits": 32,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 28
+    "2026-11-10": 32
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 49
+     "pct": 52
     },
     {
      "name": "HTML",
-     "pct": 31
+     "pct": 28
     },
     {
      "name": "문서",
