@@ -747,11 +747,11 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-10",
-   "commits": 33,
+   "commits": 34,
    "activeDays": 2,
    "days": {
     "2026-11-09": 14,
-    "2026-11-10": 19
+    "2026-11-10": 20
    },
    "types": [
     {
@@ -769,6 +769,39 @@
     {
      "name": "HTML",
      "pct": 2
+    }
+   ],
+   "milestones": [],
+   "recent": []
+  },
+  {
+   "id": "auto-relation-log-9",
+   "name": "relation-log",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "commits": 5,
+   "activeDays": 1,
+   "days": {
+    "2026-11-10": 5
+   },
+   "types": [
+    {
+     "name": "문서",
+     "pct": 82
+    },
+    {
+     "name": "Shell",
+     "pct": 9
+    },
+    {
+     "name": "JavaScript",
+     "pct": 9
     }
    ],
    "milestones": [],
