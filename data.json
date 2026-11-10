@@ -785,23 +785,27 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 5,
+   "commits": 7,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 5
+    "2026-11-10": 7
    },
    "types": [
     {
      "name": "문서",
-     "pct": 82
+     "pct": 49
+    },
+    {
+     "name": "HTML",
+     "pct": 41
     },
     {
      "name": "Shell",
-     "pct": 9
+     "pct": 5
     },
     {
      "name": "JavaScript",
-     "pct": 9
+     "pct": 5
     }
    ],
    "milestones": [],
