@@ -786,23 +786,27 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 3,
+   "commits": 7,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 3
+    "2026-11-10": 7
    },
    "types": [
     {
-     "name": "문서",
-     "pct": 75
-    },
-    {
-     "name": "Shell",
-     "pct": 12
-    },
-    {
      "name": "JavaScript",
+     "pct": 46
+    },
+    {
+     "name": "문서",
+     "pct": 27
+    },
+    {
+     "name": "CSS",
      "pct": 12
+    },
+    {
+     "name": "SQL",
+     "pct": 9
     }
    ],
    "milestones": [],
@@ -819,15 +823,15 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-10",
-   "commits": 33,
+   "commits": 34,
    "activeDays": 1,
    "days": {
-    "2026-11-10": 33
+    "2026-11-10": 34
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 53
+     "pct": 54
     },
     {
      "name": "HTML",
