@@ -531,11 +531,12 @@
    "url": "https://github.com/sxcrxta/color-camera",
    "isPublic": true,
    "first": "2026-11-04",
-   "last": "2026-11-04",
-   "commits": 2,
-   "activeDays": 1,
+   "last": "2026-11-11",
+   "commits": 3,
+   "activeDays": 2,
    "days": {
-    "2026-11-04": 2
+    "2026-11-04": 2,
+    "2026-11-11": 1
    },
    "types": [
     {
@@ -545,6 +546,11 @@
    ],
    "milestones": [],
    "recent": [
+    {
+     "date": "2026-11-11",
+     "title": "비커 여러 개 동시 측정: 원 여러 개(끌어서 배치), 비커별 종료 판정·그래프, 통합 CSV",
+     "url": "https://github.com/sxcrxta/color-camera/commit/3b610b187f472b09037101b1cd1888d9609eddc2"
+    },
     {
      "date": "2026-11-04",
      "title": "실제 영상 반영: 흰 종이 밝기 보정, 용액 자동 추적, 상대 변화율 기반 종료 판정, 영상 파일 분석",
