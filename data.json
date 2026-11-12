@@ -831,20 +831,20 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-12",
-   "commits": 46,
+   "commits": 47,
    "activeDays": 2,
    "days": {
     "2026-11-10": 44,
-    "2026-11-12": 2
+    "2026-11-12": 3
    },
    "types": [
     {
      "name": "HTML",
-     "pct": 47
+     "pct": 48
     },
     {
      "name": "JavaScript",
-     "pct": 39
+     "pct": 38
     },
     {
      "name": "문서",
