@@ -79,6 +79,27 @@
    "recent": []
   },
   {
+   "id": "auto-daily-diary-10",
+   "name": "daily-diary",
+   "desc": "새로 시작한 프로젝트.",
+   "stack": [],
+   "team": false,
+   "auto": true,
+   "url": null,
+   "isPublic": false,
+   "first": "2026-08-28",
+   "last": "2026-10-17",
+   "commits": 3,
+   "activeDays": 2,
+   "days": {
+    "2026-08-28": 1,
+    "2026-10-17": 2
+   },
+   "types": [],
+   "milestones": [],
+   "recent": []
+  },
+  {
    "id": "hwp-mcp",
    "name": "hwp-mcp",
    "desc": "AI가 한글 문서를 읽고 쓰게 해 주는 MCP 서버. 오픈소스를 포크해서 필요한 부분을 고쳤다.",
@@ -435,7 +456,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-13",
-   "commits": 290,
+   "commits": 297,
    "activeDays": 13,
    "days": {
     "2026-10-30": 1,
@@ -450,12 +471,12 @@
     "2026-11-09": 10,
     "2026-11-10": 21,
     "2026-11-12": 18,
-    "2026-11-13": 1
+    "2026-11-13": 8
    },
    "types": [
     {
      "name": "문서",
-     "pct": 50
+     "pct": 51
     },
     {
      "name": "JavaScript",
@@ -784,44 +805,6 @@
    "recent": []
   },
   {
-   "id": "auto-daily-diary-10",
-   "name": "daily-diary",
-   "desc": "새로 시작한 프로젝트.",
-   "stack": [],
-   "team": false,
-   "auto": true,
-   "url": null,
-   "isPublic": false,
-   "first": "2026-11-10",
-   "last": "2026-11-11",
-   "commits": 21,
-   "activeDays": 2,
-   "days": {
-    "2026-11-10": 20,
-    "2026-11-11": 1
-   },
-   "types": [
-    {
-     "name": "HTML",
-     "pct": 44
-    },
-    {
-     "name": "JavaScript",
-     "pct": 32
-    },
-    {
-     "name": "CSS",
-     "pct": 11
-    },
-    {
-     "name": "문서",
-     "pct": 6
-    }
-   ],
-   "milestones": [],
-   "recent": []
-  },
-  {
    "id": "auto-relation-log-9",
    "name": "relation-log",
    "desc": "새로 시작한 프로젝트.",
@@ -832,21 +815,21 @@
    "isPublic": false,
    "first": "2026-11-10",
    "last": "2026-11-13",
-   "commits": 79,
+   "commits": 80,
    "activeDays": 3,
    "days": {
     "2026-11-10": 44,
     "2026-11-12": 30,
-    "2026-11-13": 5
+    "2026-11-13": 6
    },
    "types": [
     {
      "name": "HTML",
-     "pct": 58
+     "pct": 60
     },
     {
      "name": "JavaScript",
-     "pct": 29
+     "pct": 27
     },
     {
      "name": "CSS",
