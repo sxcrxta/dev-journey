@@ -89,29 +89,29 @@
    "isPublic": false,
    "first": "2026-08-28",
    "last": "2026-11-14",
-   "commits": 13,
+   "commits": 22,
    "activeDays": 3,
    "days": {
     "2026-08-28": 1,
     "2026-10-17": 2,
-    "2026-11-14": 10
+    "2026-11-14": 19
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 70
+     "pct": 74
     },
     {
      "name": "CSS",
-     "pct": 22
+     "pct": 18
     },
     {
      "name": "HTML",
-     "pct": 6
+     "pct": 5
     },
     {
      "name": "문서",
-     "pct": 3
+     "pct": 2
     }
    ],
    "milestones": [],
@@ -795,17 +795,17 @@
    "isPublic": false,
    "first": "2026-11-09",
    "last": "2026-11-14",
-   "commits": 71,
+   "commits": 77,
    "activeDays": 3,
    "days": {
     "2026-11-09": 14,
     "2026-11-10": 44,
-    "2026-11-14": 13
+    "2026-11-14": 19
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 75
+     "pct": 74
     },
     {
      "name": "문서",
