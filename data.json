@@ -776,21 +776,22 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-09",
-   "last": "2026-11-10",
-   "commits": 58,
-   "activeDays": 2,
+   "last": "2026-11-14",
+   "commits": 60,
+   "activeDays": 3,
    "days": {
     "2026-11-09": 14,
-    "2026-11-10": 44
+    "2026-11-10": 44,
+    "2026-11-14": 2
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 77
+     "pct": 74
     },
     {
      "name": "문서",
-     "pct": 13
+     "pct": 12
     },
     {
      "name": "CSS",
@@ -798,7 +799,7 @@
     },
     {
      "name": "HTML",
-     "pct": 2
+     "pct": 6
     }
    ],
    "milestones": [],
