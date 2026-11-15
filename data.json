@@ -605,46 +605,6 @@
    ]
   },
   {
-   "id": "auto-autobuild-3",
-   "name": "autobuild",
-   "desc": "새로 시작한 프로젝트.",
-   "stack": [],
-   "team": false,
-   "auto": true,
-   "url": null,
-   "isPublic": false,
-   "first": "2026-11-05",
-   "last": "2026-11-10",
-   "commits": 49,
-   "activeDays": 4,
-   "days": {
-    "2026-11-05": 17,
-    "2026-11-08": 7,
-    "2026-11-09": 23,
-    "2026-11-10": 2
-   },
-   "types": [
-    {
-     "name": "Python",
-     "pct": 40
-    },
-    {
-     "name": "HTML",
-     "pct": 37
-    },
-    {
-     "name": "문서",
-     "pct": 11
-    },
-    {
-     "name": "JavaScript",
-     "pct": 10
-    }
-   ],
-   "milestones": [],
-   "recent": []
-  },
-  {
    "id": "auto-deep-sub-5",
    "name": "deep-sub",
    "desc": "새로 시작한 프로젝트.",
@@ -833,14 +793,15 @@
    "url": null,
    "isPublic": false,
    "first": "2026-11-10",
-   "last": "2026-11-14",
-   "commits": 88,
-   "activeDays": 4,
+   "last": "2026-11-15",
+   "commits": 89,
+   "activeDays": 5,
    "days": {
     "2026-11-10": 44,
     "2026-11-12": 30,
     "2026-11-13": 11,
-    "2026-11-14": 3
+    "2026-11-14": 3,
+    "2026-11-15": 1
    },
    "types": [
     {
@@ -857,7 +818,7 @@
     },
     {
      "name": "문서",
-     "pct": 6
+     "pct": 5
     }
    ],
    "milestones": [],
