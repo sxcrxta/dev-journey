@@ -130,7 +130,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/hwp-mcp",
-   "isPublic": false,
+   "isPublic": true,
    "first": "2026-09-04",
    "last": "2026-09-04",
    "commits": 3,
@@ -154,7 +154,23 @@
      "title": "포크 후 수식 정렬, 들여쓰기, 표 셀 오류 수정"
     }
    ],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-09-04",
+     "title": "chore: report server version 0.3.1 in MCP handshake",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/fb485cea5c5bf3c9966edd8130c30d61f90cca44"
+    },
+    {
+     "date": "2026-09-04",
+     "title": "docs: fork notice + clone/build install guide (Windows/macOS/Linux); bump 0.3.1",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/51a0928d875b182f2f8a60ef9d9902cd0fcc13ae"
+    },
+    {
+     "date": "2026-09-04",
+     "title": "fix: equation centering, 2-space indent, table cells, paraPr order",
+     "url": "https://github.com/sxcrxta/hwp-mcp/commit/5242ad47bcb837e52ffe09747f43cdafc6f11013"
+    }
+   ]
   },
   {
    "id": "personal-hub",
@@ -169,8 +185,8 @@
    ],
    "team": false,
    "auto": false,
-   "url": null,
-   "isPublic": false,
+   "url": "https://github.com/sxcrxta/personal-hub",
+   "isPublic": true,
    "first": "2026-09-07",
    "last": "2026-11-16",
    "commits": 42,
@@ -223,7 +239,48 @@
      "title": "워커가 꺼져도 저장, Mac 설치 앱 추가"
     }
    ],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-11-16",
+     "title": "Supabase CLI 임시 폴더를 git에서 제외 — 로그인한 프로젝트 정보가 저장소에 섞이지 않게",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/b1d2f251933bec6bf46208e0aed6d02998f5c6c1"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "5회차 오류 기록 — Supabase 연결 도구 계정 불일치, CLI의 실제 서비스 변경 확인 거부 — 막힌 과정과 푼 방법을 남기려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/00f1bd437645b380355d82b802e59fc040ab12af"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "푸시 알림 추가(구독 표, 1분마다 습관 알림을 보내는 함수, 설정 창 알림 켜기·테스트) — 앱이 닫혀 있어도 정한 시각에 폰으로 습관을 알려 주려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/3eceb27c97408a407b95e029d0dae7073d56e5b6"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "플러그인이 하루에 한 번 오늘의 노트를 골라 웹에 올리도록 추가, 0.6.0 — 웹은 볼트를 볼 수 없어서 오래 안 본 예전 노트를 플러그인이 대신 꺼내 줘야 해서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/3fd8d351b0d218aa0ca55cc119d3f584afd7ee5e"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "PWA 추가(앱 아이콘, manifest, 서비스 워커 등록) — 폰 홈 화면에 앱처럼 추가하고, 아이폰에서도 푸시 알림을 받을 수 있는 바탕을 만들려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/199bfb5e385e9cb798509718fa5c377522f40303"
+    },
+    {
+     "date": "2026-11-16",
+     "title": "체크리스트에 계정 두 개 검사 완료 표시, 36/44 — 4회차 뒤에 따로 확인해 둔 것을 기록에 남기려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/ee77fe8b3c716ef2ea5d21d7d25993e2e0550996"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "설치 앱의 볼트 선택을 Finder 창으로 변경 — 목록 방식은 Obsidian이 기억하는 볼트만 고를 수 있고 개인 볼트 경로까지 화면에 보여서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/aff86fafb544dc665954fc32ab50acd35a313a9f"
+    },
+    {
+     "date": "2026-11-01",
+     "title": "메모 화면이 처리 상태를 스스로 다시 읽도록 변경 — 플러그인이 DB에 적은 완료가 새로고침 전에는 보이지 않아서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/5d3afdf6b0cb0aaaa8ba0886a1b1867f4bc85956"
+    }
+   ]
   },
   {
    "id": "experiment-agent",
@@ -310,7 +367,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/oj-tracker",
-   "isPublic": false,
+   "isPublic": true,
    "first": "2026-09-21",
    "last": "2026-10-14",
    "commits": 19,
@@ -361,7 +418,48 @@
      "title": "빈칸 채우기 문제"
     }
    ],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-10-14",
+     "title": "연습장: 빈칸 채우기 문제 (함수별로 코드 채워서 채점)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/9604eb1bbacb68512c9c491322f230a1b4704307"
+    },
+    {
+     "date": "2026-10-11",
+     "title": "코드 정리·문제 지도: 아직 안 푼 문제도 보여주기 (저장한 문제 설명 포함)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/d406b31ee70243a336f53f8cf2912ba89cc8ed00"
+    },
+    {
+     "date": "2026-10-10",
+     "title": "Vercel 자동 배포 연결 확인",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/c77320e66f471fdf79a8d5f4e85036c64b67ed49"
+    },
+    {
+     "date": "2026-10-09",
+     "title": "코드 정리: 풀이가 하나면 이름 없이 코드만 보여주기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/bed36cfe8a3a9c0a1057105c23ccd70947824cb7"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "코드 정리: 문제 목록을 분류별로 묶어 보기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/be7de94521aa08c42e6bcbf79d595ba2be9082f8"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "문제 지도 새 디자인과 Claude로 정리",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/681529963bba44064b2e2ec8fc10aa9012d6e7b8"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "코드 정리창과 문제 연결 지도",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/f59b8ceb7920650c1737f77fbee5f0c586bac7d6"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "연습장 편집기를 Monaco로 (dshs.app과 동일한 편집 환경)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/b3669558d848f301b4b47c4f0222e1ee6a424536"
+    }
+   ]
   },
   {
    "id": "dshs-study",
@@ -476,8 +574,8 @@
    "stack": [],
    "team": false,
    "auto": true,
-   "url": null,
-   "isPublic": false,
+   "url": "https://github.com/sxcrxta/color-camera",
+   "isPublic": true,
    "first": "2026-11-04",
    "last": "2026-11-11",
    "commits": 3,
@@ -493,7 +591,23 @@
     }
    ],
    "milestones": [],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-11-11",
+     "title": "비커 여러 개 동시 측정: 원 여러 개(끌어서 배치), 비커별 종료 판정·그래프, 통합 CSV",
+     "url": "https://github.com/sxcrxta/color-camera/commit/3b610b187f472b09037101b1cd1888d9609eddc2"
+    },
+    {
+     "date": "2026-11-04",
+     "title": "실제 영상 반영: 흰 종이 밝기 보정, 용액 자동 추적, 상대 변화율 기반 종료 판정, 영상 파일 분석",
+     "url": "https://github.com/sxcrxta/color-camera/commit/87cb68a5a7ce86da8dc7c233e6cce349884a0df0"
+    },
+    {
+     "date": "2026-11-04",
+     "title": "색 변화 측정 웹앱: 카메라 영상 옆 ΔE 그래프, 변화 종료 시점 자동 판정",
+     "url": "https://github.com/sxcrxta/color-camera/commit/10e9d799db48aa3604939d7a826524e039af0855"
+    }
+   ]
   },
   {
    "id": "auto-deep-sub-5",
