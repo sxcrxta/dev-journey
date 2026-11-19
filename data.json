@@ -368,7 +368,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/oj-tracker",
-   "isPublic": false,
+   "isPublic": true,
    "first": "2026-09-21",
    "last": "2026-10-14",
    "commits": 19,
@@ -419,7 +419,48 @@
      "title": "빈칸 채우기 문제"
     }
    ],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-10-14",
+     "title": "연습장: 빈칸 채우기 문제 (함수별로 코드 채워서 채점)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/9604eb1bbacb68512c9c491322f230a1b4704307"
+    },
+    {
+     "date": "2026-10-11",
+     "title": "코드 정리·문제 지도: 아직 안 푼 문제도 보여주기 (저장한 문제 설명 포함)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/d406b31ee70243a336f53f8cf2912ba89cc8ed00"
+    },
+    {
+     "date": "2026-10-10",
+     "title": "Vercel 자동 배포 연결 확인",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/c77320e66f471fdf79a8d5f4e85036c64b67ed49"
+    },
+    {
+     "date": "2026-10-09",
+     "title": "코드 정리: 풀이가 하나면 이름 없이 코드만 보여주기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/bed36cfe8a3a9c0a1057105c23ccd70947824cb7"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "코드 정리: 문제 목록을 분류별로 묶어 보기",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/be7de94521aa08c42e6bcbf79d595ba2be9082f8"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "문제 지도 새 디자인과 Claude로 정리",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/681529963bba44064b2e2ec8fc10aa9012d6e7b8"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "코드 정리창과 문제 연결 지도",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/f59b8ceb7920650c1737f77fbee5f0c586bac7d6"
+    },
+    {
+     "date": "2026-09-24",
+     "title": "연습장 편집기를 Monaco로 (dshs.app과 동일한 편집 환경)",
+     "url": "https://github.com/sxcrxta/oj-tracker/commit/b3669558d848f301b4b47c4f0222e1ee6a424536"
+    }
+   ]
   },
   {
    "id": "dshs-study",
