@@ -88,27 +88,28 @@
    "url": null,
    "isPublic": false,
    "first": "2026-08-28",
-   "last": "2026-11-16",
-   "commits": 28,
-   "activeDays": 4,
+   "last": "2026-11-19",
+   "commits": 31,
+   "activeDays": 5,
    "days": {
     "2026-08-28": 1,
     "2026-10-17": 2,
     "2026-11-14": 22,
-    "2026-11-16": 3
+    "2026-11-16": 3,
+    "2026-11-19": 3
    },
    "types": [
     {
      "name": "JavaScript",
-     "pct": 75
+     "pct": 78
     },
     {
      "name": "CSS",
-     "pct": 17
+     "pct": 16
     },
     {
      "name": "HTML",
-     "pct": 5
+     "pct": 4
     },
     {
      "name": "문서",
