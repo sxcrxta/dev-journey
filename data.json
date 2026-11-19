@@ -189,21 +189,22 @@
    "url": "https://github.com/sxcrxta/personal-hub",
    "isPublic": true,
    "first": "2026-09-07",
-   "last": "2026-11-16",
-   "commits": 42,
-   "activeDays": 6,
+   "last": "2026-11-19",
+   "commits": 51,
+   "activeDays": 7,
    "days": {
     "2026-09-07": 1,
     "2026-09-28": 10,
     "2026-10-08": 7,
     "2026-10-26": 5,
     "2026-11-01": 12,
-    "2026-11-16": 7
+    "2026-11-16": 7,
+    "2026-11-19": 9
    },
    "types": [
     {
      "name": "TypeScript",
-     "pct": 79
+     "pct": 80
     },
     {
      "name": "문서",
@@ -242,44 +243,44 @@
    ],
    "recent": [
     {
-     "date": "2026-11-16",
-     "title": "Supabase CLI 임시 폴더를 git에서 제외 — 로그인한 프로젝트 정보가 저장소에 섞이지 않게",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/b1d2f251933bec6bf46208e0aed6d02998f5c6c1"
+     "date": "2026-11-19",
+     "title": "Mac 설치 파일을 플러그인 0.8.0으로 다시 만들고 체크리스트 확장 칸에 저장 전 검토 완료 표시 — 폰 크기 화면에서 고쳐 저장한 글이 볼트 노트와 똑같은 것과 버튼 세 개를 확인해서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/c73294e14b97bf6d21777f4e165f55c5771f121f"
     },
     {
-     "date": "2026-11-16",
-     "title": "5회차 오류 기록 — Supabase 연결 도구 계정 불일치, CLI의 실제 서비스 변경 확인 거부 — 막힌 과정과 푼 방법을 남기려고",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/00f1bd437645b380355d82b802e59fc040ab12af"
+     "date": "2026-11-19",
+     "title": "웹에 저장 전 검토 창 추가(폰은 원문·AI 정리 탭, 넓은 화면은 나란히, 저장 / 다시 정제 / 원문 그대로 저장)와 설정 켜기 — 이동 중에도 폰으로 AI 결과를 확인하고 고쳐 저장하려고. 최근 메모 칸이 폰 화면보다 넓어지던 것도 함께 고침",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/527f883ace0447af38537b133abe123972cb0268"
     },
     {
-     "date": "2026-11-16",
-     "title": "푸시 알림 추가(구독 표, 1분마다 습관 알림을 보내는 함수, 설정 창 알림 켜기·테스트) — 앱이 닫혀 있어도 정한 시각에 폰으로 습관을 알려 주려고",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/3eceb27c97408a407b95e029d0dae7073d56e5b6"
+     "date": "2026-11-19",
+     "title": "플러그인이 검토 메모는 초안만 올리고, 웹에서 저장한 초안으로 노트를 만들도록 변경, 0.8.0 — 사람이 고친 글 그대로 노트가 되게 하려고. 초안이 있는 메모는 다시 정제하지 않아 고친 글이 날아가지 않는다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/782001525a6372f5c948264cb1f54f47fa62408d"
     },
     {
-     "date": "2026-11-16",
-     "title": "플러그인이 하루에 한 번 오늘의 노트를 골라 웹에 올리도록 추가, 0.6.0 — 웹은 볼트를 볼 수 없어서 오래 안 본 예전 노트를 플러그인이 대신 꺼내 줘야 해서",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/3fd8d351b0d218aa0ca55cc119d3f584afd7ee5e"
+     "date": "2026-11-19",
+     "title": "메모 표에 검토대기·저장대기 상태와 초안 칸, 계정 설정에 저장 전 검토 켜기 추가 — AI 정제 결과를 파일보다 먼저 DB에 두어야 웹에서 고칠 수 있어서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/6a01488afc8c04f0c32ed71a99797b0ab91bcc31"
     },
     {
-     "date": "2026-11-16",
-     "title": "PWA 추가(앱 아이콘, manifest, 서비스 워커 등록) — 폰 홈 화면에 앱처럼 추가하고, 아이폰에서도 푸시 알림을 받을 수 있는 바탕을 만들려고",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/199bfb5e385e9cb798509718fa5c377522f40303"
+     "date": "2026-11-19",
+     "title": "메모 범위·설계에 저장 전 검토 단계 추가 — 다른 사용자가 AI 정리 노트를 저장 전에 원문과 비교하고 고치고 싶다고 해서. 볼트에 아직 없는 초안을 고치는 것이라 웹 → 볼트 한 방향은 그대로다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/8bf288cead2248e88437d97b9ad875644f054b7a"
     },
     {
-     "date": "2026-11-16",
-     "title": "체크리스트에 계정 두 개 검사 완료 표시, 36/44 — 4회차 뒤에 따로 확인해 둔 것을 기록에 남기려고",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/ee77fe8b3c716ef2ea5d21d7d25993e2e0550996"
+     "date": "2026-11-19",
+     "title": "Mac 설치 파일을 플러그인 0.7.0으로 다시 만들고 체크리스트 확장 칸에 Gemini 정제 완료 표시 — 테스트 볼트에서 Gemini로 메모 41번이 노트가 되는 것을 확인해서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/10d73881eb1ed7d7b6f85701634c6ab159a93433"
     },
     {
-     "date": "2026-11-01",
-     "title": "설치 앱의 볼트 선택을 Finder 창으로 변경 — 목록 방식은 Obsidian이 기억하는 볼트만 고를 수 있고 개인 볼트 경로까지 화면에 보여서",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/aff86fafb544dc665954fc32ab50acd35a313a9f"
+     "date": "2026-11-19",
+     "title": "메모 보기 창에서 실패가 아닌 메모의 오류 문구를 '안내'로 표시 — Gemini 사용량 초과로 정제대기에 돌아온 메모가 실패한 것처럼 보이지 않게",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/b7ec38c556b6c8c68658d6a6dee813e047d3ede8"
     },
     {
-     "date": "2026-11-01",
-     "title": "메모 화면이 처리 상태를 스스로 다시 읽도록 변경 — 플러그인이 DB에 적은 완료가 새로고침 전에는 보이지 않아서",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/5d3afdf6b0cb0aaaa8ba0886a1b1867f4bc85956"
+     "date": "2026-11-19",
+     "title": "플러그인이 Claude Code가 없으면 Gemini 무료 키로 정제, 0.7.0 — Claude Code 없는 사람에게도 나눠 주려고. 무료 키에서 Flash는 답이 없거나 붐벼서 몇 초 만에 답하는 Flash-Lite를 먼저 쓰고, 사용량 초과·붐빔은 실패가 아니라 정제대기로 돌려놓는다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/13f5256b9fd7abcdce67ddaf88f26322f7ae94ca"
     }
    ]
   },
