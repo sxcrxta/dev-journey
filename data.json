@@ -131,7 +131,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/hwp-mcp",
-   "isPublic": true,
+   "isPublic": false,
    "first": "2026-09-04",
    "last": "2026-09-04",
    "commits": 3,
@@ -155,23 +155,7 @@
      "title": "포크 후 수식 정렬, 들여쓰기, 표 셀 오류 수정"
     }
    ],
-   "recent": [
-    {
-     "date": "2026-09-04",
-     "title": "chore: report server version 0.3.1 in MCP handshake",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/fb485cea5c5bf3c9966edd8130c30d61f90cca44"
-    },
-    {
-     "date": "2026-09-04",
-     "title": "docs: fork notice + clone/build install guide (Windows/macOS/Linux); bump 0.3.1",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/51a0928d875b182f2f8a60ef9d9902cd0fcc13ae"
-    },
-    {
-     "date": "2026-09-04",
-     "title": "fix: equation centering, 2-space indent, table cells, paraPr order",
-     "url": "https://github.com/sxcrxta/hwp-mcp/commit/5242ad47bcb837e52ffe09747f43cdafc6f11013"
-    }
-   ]
+   "recent": []
   },
   {
    "id": "personal-hub",
@@ -186,8 +170,8 @@
    ],
    "team": false,
    "auto": false,
-   "url": "https://github.com/sxcrxta/personal-hub",
-   "isPublic": true,
+   "url": null,
+   "isPublic": false,
    "first": "2026-09-07",
    "last": "2026-11-19",
    "commits": 56,
@@ -241,48 +225,7 @@
      "title": "워커가 꺼져도 저장, Mac 설치 앱 추가"
     }
    ],
-   "recent": [
-    {
-     "date": "2026-11-19",
-     "title": "Mac 설치 파일을 플러그인 0.8.1로 다시 만듦 — 형식 오류 다시 묻기를 새로 설치하는 사람도 받게 하려고. 테스트 볼트에서 정제 메모 47번이 노트가 되는 것을 확인",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/888da33484adad3f04e9fc536fbf8f6126320630"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "AI 정제 답이 형식에 안 맞으면 한 번 더 묻고, 굵게·코드 블록·\\r\\n으로 감싼 답도 받도록 변경, 0.8.1 — Gemini가 가끔 형식을 어겨 메모가 바로 실패로 끝났다. 두 번 다 어긋나면 실패로 남기고 답의 앞부분은 이 기기 콘솔에만 남겨 원인을 볼 수 있게 한다",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/13a4b2d627a5548fb485eb72acae0ea9ac84f1a6"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "오늘 화면에서 노트 맨 위 속성 블록을 숨김 — memo_id·created 줄이 큰 제목으로 그려졌다. 날짜·태그는 화면이 따로 보여주고, 메모 원문은 사용자가 쓴 --- 줄을 지우지 않게 그대로 둔다",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/b081ed35acc2e9b9b138a5c30489ae27e63e1aed"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "체크리스트에 오늘의 노트 처리 완료 표시, 40/44 — 테스트 볼트에서 플러그인이 고른 노트가 DB에 원문 그대로 올라가고 같은 날 두 번 고르지 않는 것을 확인해서",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/0f6798afc036b21fb4ee10bdb9a0fdecbf653370"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "검토 창에서 원문·AI 정리를 한 번씩만 그리도록 변경 — 폰과 넓은 화면용으로 두 벌 그리니 서식 버튼이 숨은 편집칸을 건드려, 폰에서 굵게를 누르면 고른 글자 대신 본문 끝에 붙었다",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/99a0f7ba5ae2be7aba6ea9c9deaeb18473b87adb"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "Mac 설치 파일을 플러그인 0.8.0으로 다시 만들고 체크리스트 확장 칸에 저장 전 검토 완료 표시 — 폰 크기 화면에서 고쳐 저장한 글이 볼트 노트와 똑같은 것과 버튼 세 개를 확인해서",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/c73294e14b97bf6d21777f4e165f55c5771f121f"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "웹에 저장 전 검토 창 추가(폰은 원문·AI 정리 탭, 넓은 화면은 나란히, 저장 / 다시 정제 / 원문 그대로 저장)와 설정 켜기 — 이동 중에도 폰으로 AI 결과를 확인하고 고쳐 저장하려고. 최근 메모 칸이 폰 화면보다 넓어지던 것도 함께 고침",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/527f883ace0447af38537b133abe123972cb0268"
-    },
-    {
-     "date": "2026-11-19",
-     "title": "플러그인이 검토 메모는 초안만 올리고, 웹에서 저장한 초안으로 노트를 만들도록 변경, 0.8.0 — 사람이 고친 글 그대로 노트가 되게 하려고. 초안이 있는 메모는 다시 정제하지 않아 고친 글이 날아가지 않는다",
-     "url": "https://github.com/sxcrxta/personal-hub/commit/782001525a6372f5c948264cb1f54f47fa62408d"
-    }
-   ]
+   "recent": []
   },
   {
    "id": "experiment-agent",
@@ -369,7 +312,7 @@
    "team": false,
    "auto": false,
    "url": "https://github.com/sxcrxta/oj-tracker",
-   "isPublic": true,
+   "isPublic": false,
    "first": "2026-09-21",
    "last": "2026-10-14",
    "commits": 19,
@@ -420,48 +363,7 @@
      "title": "빈칸 채우기 문제"
     }
    ],
-   "recent": [
-    {
-     "date": "2026-10-14",
-     "title": "연습장: 빈칸 채우기 문제 (함수별로 코드 채워서 채점)",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/9604eb1bbacb68512c9c491322f230a1b4704307"
-    },
-    {
-     "date": "2026-10-11",
-     "title": "코드 정리·문제 지도: 아직 안 푼 문제도 보여주기 (저장한 문제 설명 포함)",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/d406b31ee70243a336f53f8cf2912ba89cc8ed00"
-    },
-    {
-     "date": "2026-10-10",
-     "title": "Vercel 자동 배포 연결 확인",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/c77320e66f471fdf79a8d5f4e85036c64b67ed49"
-    },
-    {
-     "date": "2026-10-09",
-     "title": "코드 정리: 풀이가 하나면 이름 없이 코드만 보여주기",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/bed36cfe8a3a9c0a1057105c23ccd70947824cb7"
-    },
-    {
-     "date": "2026-09-28",
-     "title": "코드 정리: 문제 목록을 분류별로 묶어 보기",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/be7de94521aa08c42e6bcbf79d595ba2be9082f8"
-    },
-    {
-     "date": "2026-09-28",
-     "title": "문제 지도 새 디자인과 Claude로 정리",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/681529963bba44064b2e2ec8fc10aa9012d6e7b8"
-    },
-    {
-     "date": "2026-09-24",
-     "title": "코드 정리창과 문제 연결 지도",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/f59b8ceb7920650c1737f77fbee5f0c586bac7d6"
-    },
-    {
-     "date": "2026-09-24",
-     "title": "연습장 편집기를 Monaco로 (dshs.app과 동일한 편집 환경)",
-     "url": "https://github.com/sxcrxta/oj-tracker/commit/b3669558d848f301b4b47c4f0222e1ee6a424536"
-    }
-   ]
+   "recent": []
   },
   {
    "id": "dshs-study",
@@ -577,8 +479,8 @@
    "stack": [],
    "team": false,
    "auto": true,
-   "url": "https://github.com/sxcrxta/color-camera",
-   "isPublic": true,
+   "url": null,
+   "isPublic": false,
    "first": "2026-11-04",
    "last": "2026-11-11",
    "commits": 3,
@@ -594,23 +496,7 @@
     }
    ],
    "milestones": [],
-   "recent": [
-    {
-     "date": "2026-11-11",
-     "title": "비커 여러 개 동시 측정: 원 여러 개(끌어서 배치), 비커별 종료 판정·그래프, 통합 CSV",
-     "url": "https://github.com/sxcrxta/color-camera/commit/3b610b187f472b09037101b1cd1888d9609eddc2"
-    },
-    {
-     "date": "2026-11-04",
-     "title": "실제 영상 반영: 흰 종이 밝기 보정, 용액 자동 추적, 상대 변화율 기반 종료 판정, 영상 파일 분석",
-     "url": "https://github.com/sxcrxta/color-camera/commit/87cb68a5a7ce86da8dc7c233e6cce349884a0df0"
-    },
-    {
-     "date": "2026-11-04",
-     "title": "색 변화 측정 웹앱: 카메라 영상 옆 ΔE 그래프, 변화 종료 시점 자동 판정",
-     "url": "https://github.com/sxcrxta/color-camera/commit/10e9d799db48aa3604939d7a826524e039af0855"
-    }
-   ]
+   "recent": []
   },
   {
    "id": "auto-deep-sub-5",
