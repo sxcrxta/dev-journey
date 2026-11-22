@@ -186,8 +186,8 @@
    ],
    "team": false,
    "auto": false,
-   "url": null,
-   "isPublic": false,
+   "url": "https://github.com/sxcrxta/personal-hub",
+   "isPublic": true,
    "first": "2026-09-07",
    "last": "2026-11-20",
    "commits": 60,
@@ -242,7 +242,48 @@
      "title": "워커가 꺼져도 저장, Mac 설치 앱 추가"
     }
    ],
-   "recent": []
+   "recent": [
+    {
+     "date": "2026-11-20",
+     "title": "테마 다섯 가지를 설정 창에서 고르게 함 (기기 설정 따라가기·밝게·밤 남색·먹색·완전 검정) — 밤에 밝은 화면이 눈부셔서, 어두운 테마를 취향대로 고르고 계정에 저장해 기기마다 같게 쓰려고",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/329237bb954d12ba3ff4a6d035885f35a9a9f8e5"
+    },
+    {
+     "date": "2026-11-20",
+     "title": "할 일 알림 여러 개와 미루기 추가, 42/44 — 습관만 폰으로 알림이 와서 할 일 마감을 놓쳤다. todo_reminders 표, 편집 창 알림 칸(마감 기준 고르기·직접 고르기·알림이 온 뒤 10분/1시간/내일 미루기), 마감을 옮기면 안 보낸 알림도 같이 옮김, 발송 함수가 1분마다 보내고 sent_at은 함수만 적어 웹이 보낸 기록을 덮지 않게 함",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/a1aa67a364df8cbacec118ebdefa36fca3496eda"
+    },
+    {
+     "date": "2026-11-20",
+     "title": "규칙 함수 테스트 34개와 npm test 추가, 빠른 입력이 없는 시각을 받지 않게 고침, 41/44 — 날짜·할 일·습관·학업·기한 칸 규칙을 고칠 때 다른 화면이 깨지는지 바로 알려고. 시험 시각은 11/18 10시로 고정. 만들다가 '@25:00'이 마감 시각이 되는 것을 찾았다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/9bba56ca681452ad6944bb9c7aba6662c13a0fd9"
+    },
+    {
+     "date": "2026-11-20",
+     "title": "설계 문서의 표 이름을 실제 DB에 맞추고, 체크리스트 6회차 비고를 고침 — 없는 name_styles·todo_reminders 같은 계획 단계 이름이 남아 있었고, 다음 날 노트 확인을 끝냈는데 '확인 전'으로 적혀 있었다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/b1f367b6f98223dda980f6f4e6be14099e18fe46"
+    },
+    {
+     "date": "2026-11-19",
+     "title": "Mac 설치 파일을 플러그인 0.8.1로 다시 만듦 — 형식 오류 다시 묻기를 새로 설치하는 사람도 받게 하려고. 테스트 볼트에서 정제 메모 47번이 노트가 되는 것을 확인",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/888da33484adad3f04e9fc536fbf8f6126320630"
+    },
+    {
+     "date": "2026-11-19",
+     "title": "AI 정제 답이 형식에 안 맞으면 한 번 더 묻고, 굵게·코드 블록·\\r\\n으로 감싼 답도 받도록 변경, 0.8.1 — Gemini가 가끔 형식을 어겨 메모가 바로 실패로 끝났다. 두 번 다 어긋나면 실패로 남기고 답의 앞부분은 이 기기 콘솔에만 남겨 원인을 볼 수 있게 한다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/13a4b2d627a5548fb485eb72acae0ea9ac84f1a6"
+    },
+    {
+     "date": "2026-11-19",
+     "title": "오늘 화면에서 노트 맨 위 속성 블록을 숨김 — memo_id·created 줄이 큰 제목으로 그려졌다. 날짜·태그는 화면이 따로 보여주고, 메모 원문은 사용자가 쓴 --- 줄을 지우지 않게 그대로 둔다",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/b081ed35acc2e9b9b138a5c30489ae27e63e1aed"
+    },
+    {
+     "date": "2026-11-19",
+     "title": "체크리스트에 오늘의 노트 처리 완료 표시, 40/44 — 테스트 볼트에서 플러그인이 고른 노트가 DB에 원문 그대로 올라가고 같은 날 두 번 고르지 않는 것을 확인해서",
+     "url": "https://github.com/sxcrxta/personal-hub/commit/0f6798afc036b21fb4ee10bdb9a0fdecbf653370"
+    }
+   ]
   },
   {
    "id": "experiment-agent",
