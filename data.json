@@ -480,7 +480,7 @@
    "isPublic": false,
    "first": "2026-10-30",
    "last": "2026-11-24",
-   "commits": 426,
+   "commits": 428,
    "activeDays": 22,
    "days": {
     "2026-10-30": 1,
@@ -504,24 +504,24 @@
     "2026-11-21": 6,
     "2026-11-22": 4,
     "2026-11-23": 63,
-    "2026-11-24": 2
+    "2026-11-24": 4
    },
    "types": [
     {
      "name": "문서",
-     "pct": 44
-    },
-    {
-     "name": "JavaScript",
-     "pct": 24
+     "pct": 40
     },
     {
      "name": "HTML",
-     "pct": 21
+     "pct": 27
+    },
+    {
+     "name": "JavaScript",
+     "pct": 22
     },
     {
      "name": "TypeScript",
-     "pct": 6
+     "pct": 5
     }
    ],
    "milestones": [
